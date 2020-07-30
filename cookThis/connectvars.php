@@ -1,7 +1,7 @@
 <?php
     //Define database connection constants
     define('DB_HOST', 'localhost');
-    define('DB_USER', 'student');
-    define('DB_PASSWORD', 'student');
-    define('DB_NAME', 'cookthis');
+    define('DB_USER', 'username');
+    define('DB_PASSWORD', 'password');
+    define('DB_NAME', 'dbname');
 ?>
