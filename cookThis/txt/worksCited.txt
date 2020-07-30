@@ -1,0 +1,29 @@
+GENERAL REFERENCES
+
+https://stackoverflow.com/questions/5005388/cannot-add-or-update-a-child-row-a-foreign-key-constraint-fails
+
+https://www.w3schools.com/sql/sql_update.asp
+
+https://stackoverflow.com/questions/34057595/allow-2-decimal-places-in-input-type-number
+
+https://stackoverflow.com/questions/17139501/using-post-to-get-select-option-value-from-html
+
+https://www.w3schools.com/tags/att_input_autofocus.asp
+
+https://www.w3schools.com/pHp/func_mysqli_num_rows.asp
+
+https://stackoverflow.com/questions/2546314/php-mysql-mysqli-num-rows-expects-parameter-1-to-be-mysqli-result-boolean
+
+https://stackoverflow.com/questions/14046838/mysql-operand-should-contain-1-columns
+
+https://www.w3schools.com/html/html_symbols.asp
+
+https://www.android-examples.com/override-change-the-background-color-of-jumbotron-bootstrap/
+
+
+
+BOOTSTRAP REFERENCES
+
+https://bootswatch.com/journal  -- reference for bootstrap theme
+
+https://getbootstrap.com     -- for bootstrap component references

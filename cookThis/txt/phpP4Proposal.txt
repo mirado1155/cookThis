@@ -1,0 +1,42 @@
+In these times of isolation, many of us are finding that we're spending more time cooking at home.
+
+For the more adventurous among us, we may also find that we're experimenting a little bit more in the kitchen.
+
+Want a way to keep track of all your experiments?
+
+
+I propose a recipe logger
+
+
+It will consist of individual user accounts.
+
+Each user will be able to enter in the following:
+
+	Name of Ingredient
+	Unit of measurement
+	Amount
+	Procedure
+
+This information will be stored using several tables. 'Ingredients' will contain information about
+all types of possible ingredients (id, name). 'Units' will contain all of our different units of measurement (id, unit_name). 
+'Users	' will contain information about the specific user (id, username, password). 'Recipes' will act as a bridge table between 'Ingredients'
+and 'Units', will contain information about the user, and will be where the quantity of each ingredient is stored (recipeId, userId, IngredientId, UnitId, ingredientQuantity).
+'userRecipe' will store which recipes belong to which user, any notes or annotations about each recipe,
+as well as the date and time the recipe was posted. Importantly, it will also be where the recipe's procedure is
+stored. (userId, recipeId, procedure, notes, timePosted).
+
+I'd like to give users the ability to search for existing ingredients and add any that don't already exist. Units of measurement will be
+hard-coded for convenience.
+
+Users will have a main page with a list of their existing recipes. They can open each of them in a separate page to view. Once they're viewing, they
+will be given options to add, modify, or delete anything about the recipe. Additionally, these changes will be logged. I hope to allow the user
+to view all past iterations of any given recipe over time.
+
+
+**userRecipe was eliminated and incorporated into 'recipes'**
+**added recipeIngredient table for adding multiple ingredients**
+
+
+
+
+
